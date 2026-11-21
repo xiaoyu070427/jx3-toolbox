@@ -10,7 +10,7 @@
 最新版在本仓库的 [Releases](https://github.com/xiaoyu070427/jx3-toolbox/releases/latest) 页面，
 文件名 `jx3-toolbox.exe`，单文件免安装，双击即用。
 
-- 当前版本：**v1.81**
+- 当前版本：**v1.83**
 - 支持 Windows 10 / 11 x64，无需安装 Python
 - 无 AVX-512 构建，2013 年之后的 CPU 都能直接运行
 
@@ -55,6 +55,8 @@ https://github.com/xiaoyu070427/jx3-toolbox/releases/latest/download/latest.json
 
 | 版本 | 要点 |
 | --- | --- |
+| v1.83 | 「角色名片」改名「角色信息」，提示行移到标题下方并按状态给下一步；`ticket_src` 区分个人 / 默认票据 |
+| v1.82 | 魔盒 `mount` 是门派 ID（7 丐帮 / 9 五毒…），只绑魔盒不填票也能出门派标签与纹章；门派标签与纹章同步刷新 |
 | v1.81 | 门派不再张冠李戴（按角色名对齐 + 缓存校验），旧的错缓存自动纠正 |
 | v1.80 | 用魔盒 `player_id` 当 7~8 位 roleId，免费出装分/资历/段位；切公共票据不再退回简笔画；没有成就库也能算奇遇 |
 | v1.79 | 换魔盒号后资历与奇遇自动补算（新增后台统计线程） |
